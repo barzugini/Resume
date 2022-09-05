@@ -1,6 +1,5 @@
-body {
-    background: #e0e5ec;
-  }
+body 
+
   h1 {
     position: relative;
     text-align: center;
@@ -16,12 +15,22 @@ body {
     font-family: "Cormorant Garamond", serif;
   }
   
+  #particle-js{
+    height: 100vh;
+    background-color: #e74c3c;
+  }
   ul{text-align:center;}
 
-  ul li{display:inline-block;
-    text-align: center;}
+  ul li{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
 
   div {text-align: center;}
+
+  form {text-align:center}
 
   section {
     font-family: 'Lato', sans-serif;
@@ -244,7 +253,7 @@ body {
     padding: 0;
     border: none;
     background: rgb(255,27,0);
-  background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+    background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
   }
   .btn-5:hover {
     color: #f0094a;
