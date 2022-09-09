@@ -18,15 +18,32 @@ body {
     color: #353535;
     font-size: 30px;
   }
+
+  .container {
+}
+
+.container ul {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.container li {
+  list-style: none;
+  display:flexbox;
+  border: 0px solid #cccccc;
+}
   
   #particle-js{
     height: 100vh;
     background-color: #e74c3c;
   }
+
   ul{text-align:center;}
 
   ul li{
-    display: flex;
+    display:flex;
     align-content: center;
     justify-content: center;
     text-align: center;
