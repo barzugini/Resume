@@ -24,6 +24,7 @@ body {
   .container {
 }
 
+
 .hobbi{
 background-color: #8FBC8F;
 }
@@ -40,7 +41,7 @@ background-color: #8FBC8F;
   border-radius: 30px;
 }
 .hobbi4 {
-  background: #8FBC8F;
+  background: #FFD700;
   border: thick double #00CED1;
   border-radius: 30px;
 }
