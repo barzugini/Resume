@@ -51,6 +51,7 @@ body {
   color: #FFFFFF;
   text-align: center;
   font-size: 15px;
+  font-family: inherit;
   padding: 20px;
   width: 120px;
   transition: all 0.5s;
