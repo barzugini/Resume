@@ -99,9 +99,12 @@ body {
   border-radius: 30px;
 }
 
+.list {
+  padding: 0px 20px;
+}
+
 .container ul {
   margin: 0px;
-  padding: 0px;
   overflow: hidden;
   text-align: center;
 }
@@ -109,6 +112,7 @@ body {
 .container li {
   list-style: none;
   display:flexbox;
+  /* color: #86898f; */
   /* border: 0px solid #cccccc; */
 }
   
