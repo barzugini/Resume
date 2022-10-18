@@ -15,20 +15,33 @@
     
         <link rel="stylesheet" href="css/main.css">
 
-        <div class="photo">
+        <div class="info photo box">
             <img class='photo-img' src="imgs/dv0VsRqUoDue7oZC98lZ6pgUKCHnYMg9oaHFVmGquxkWwbqM1yoQN-WPxVTs1d5k1QQnIZlD_-Yl5CW2ZkGPfaaC.jpg" alt="ёжик" width="300" >
         </div>
 
-        <header id="header" class="header">
+        <header id="header" class="header box">
             <h1>Тугулов Иннокентий</h1>  
         </header>
 
-        <div class="description card">
-        <p>Я только начинаю свой путь в программировании и хочу сменить род деятельности</p>
+        <div class="info description card box">
+            <p>Я только начинаю свой путь в программировании и хочу сменить род деятельности</p>
 
-        <p>Я люблю программировать и спать</p>
+            <p>Я люблю программировать и спать</p>
         </div>
         <br>
+
+        <div class="info card link box">
+
+            <h2>Список социальных сетей</h2>
+
+            <a href="https://t.me/Aquianna" target="contact"><img src="imgs/free-icon-telegram-2111813.png" alt="ссылка на телеграмм" width="50"></a>
+            
+            <a href="https://vk.com/m_keeey" target="contact"><img src="imgs/pngwing.com (1) (1).png" alt="ссылка на контакт" width="50"></a>
+
+            <br>
+            <br>
+        </div>
+
         <section>
 
             <div class="container card">
@@ -58,17 +71,6 @@
 
             <br>
 
-            <div class="card">
-            <h2>Список социальных сетей</h2>
-
-            <a href="https://t.me/Aquianna" target="contact"><img src="imgs/free-icon-telegram-2111813.png" alt="ссылка на телеграмм" width="50"></a>
-            
-            <a href="https://vk.com/m_keeey" target="contact"><img src="imgs/pngwing.com (1) (1).png" alt="ссылка на контакт" width="50"></a>
-
-            <br>
-            <br>
-            </div>
-
         </section>
 
         <div class="photo">
@@ -79,23 +81,24 @@
         </button>
         </div>
         <div class="card">
-        <h2>Связаться со мной</h2>
 
-            <form>
+            <form class="form">
 
-                <div>
-                    <label for="name">Ваше имя:</label>
-                    <input type="text" id="name" placeholder="Введите имя">
+                <h2>Связаться со мной</h2>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите имя">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" placeholder="Введите email">
+                    </div>
                 </div>
-
-                <div>
-                    <label for="email">Ваш email:</label>
-                    <input type="email" id="email" placeholder="Введите email">
-                </div>
-
-                <div>
+                <div class="form-group">
                     <label for="message">Ваше сообщение:</label>
-                    <br>
                     <textarea name="" id="message" cols="35" rows="10" placeholder="Введите сообщение. . ."></textarea>
                 </div>
 
