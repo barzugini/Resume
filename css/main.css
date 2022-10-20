@@ -12,13 +12,13 @@ body {
     position: relative;
     text-align: center;
     /* color: #353535; */
-    font-size: 40px;
+    font-size: 35px;
   }
   h2 {
     position:relative;
     text-align:center;
     /* color: #353535; */
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .container {
@@ -100,6 +100,9 @@ body {
 
 .link {
   text-align: center;
+  margin-bottom: 0;
+  border-bottom: 5;
+  border-top: 5;
 }
 
 .form h2 {
@@ -169,10 +172,10 @@ body {
       box-sizing: border-box;
   } */
 
-
+/* 
   table{
     background: url("https://inter.ru/wp-content/uploads/2019/05/%D1%84%D0%BE%D0%BD-11-1400x776.png")98% 86% no-repeat;
-  }
+  } */
   
   ul{text-align:center;}
 
@@ -182,10 +185,11 @@ body {
     justify-content: center;
     text-align: center;
 }
+
   .description {
     font-style: italic;
     font-weight: bold;
-    /* color: #86898f; */
+    color: #424242;
   }
 
   .photo {
@@ -195,13 +199,14 @@ body {
   }
 
   .info {
-    display: flex;
+    /* display: flex; */
+    /* margin-bottom: 20px; */
   }
 
   .photo-img {
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    width: 200px;
+    width: 227.8px;
   }
 
   form {
@@ -217,11 +222,13 @@ body {
     /* color: #676767; */
     padding-inline-start: 0px;
   }
+
   p {
     font-weight: 300;
     text-align: center;
     font-size: 18px;
   }
+  
   .frame {
     width: 90%;
     margin: 40px auto;
