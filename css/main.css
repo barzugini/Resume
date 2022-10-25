@@ -27,7 +27,15 @@ body {
 
 }
 
-@media (max-width: 650)
+@media (max-width: 650) {
+  table tr {
+    display: block;
+  }
+
+  table td {
+    display: block;
+  }
+}
 
 .btn-1 {
   display: inline-block;
@@ -170,7 +178,7 @@ body {
       width: 32%;
       border: 1px solid black;
       background: #D3D3D3;
-      display: inherit;
+      display: block;
       box-sizing: border-box;
   } */
 
