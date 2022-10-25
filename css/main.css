@@ -143,6 +143,18 @@ body {
   display: flex;
 }
 
+@media (max-width: 650px) {
+  .form-row{
+    display: block;
+  }
+
+  .form-row .form-group {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
 .form-row .form-group:last-child{
   margin-right: 0;
   width: 50%;
