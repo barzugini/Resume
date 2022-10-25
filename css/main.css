@@ -27,6 +27,8 @@ body {
 
 }
 
+@media (max-width: 650)
+
 .btn-1 {
   display: inline-block;
   border-radius: 8px;
